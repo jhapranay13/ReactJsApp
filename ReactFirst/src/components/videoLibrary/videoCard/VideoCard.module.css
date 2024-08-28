@@ -1,0 +1,85 @@
+.video-card {
+    width: 340px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-left: 39px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.video-cover {
+    opacity: 1;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 250;
+}
+
+.video-card:hover {
+    transform: scale(1.09);
+}
+
+.video-thumbnail {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.video-description {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.uploader-pic-container{
+    display: inline-block;
+    width: 50%;
+
+}
+
+.uploader-pic {
+    object-fit: contain;
+    width: 140%;
+    border-radius: 40px;
+    border-color: cornsilk;
+    border-style: solid;
+    vertical-align: top;
+}
+
+.title-container {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.subscription-total-container {
+    font-weight: 100;
+    line-height: 10px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.profile-name-container{
+    font-weight: 100;
+    line-height: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.video-thumbnail-container {
+    position: relative;
+    width: 100%
+}
+
+.video-duration {
+    background-color: black;
+    font-weight: 400;
+    color: white;
+    bottom:2px;
+    right: 2px;
+    position: absolute;
+}

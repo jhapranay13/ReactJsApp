@@ -1,0 +1,64 @@
+.show-pwd-checkbox {
+  margin-left: -7%;
+}
+
+.background-cover-white {
+  background-color: white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(247, 243, 243);
+}
+
+input[type=button],
+input[type=submit]  {
+  box-shadow: 3px 3px 3px rgba(41, 32, 73, 0.6);
+  color: rgb(80, 80, 177);
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(80, 80, 177);
+}
+
+input[type=button]:hover,
+input[type=submit]:hover {
+  background-color: rgb(80, 80, 177);
+  color: white;
+}
+
+input[type=button]:active,
+input[type=submit]:active {
+  opacity: 0.7;
+}
+
+input[type=button]:disabled,
+input[type=submit]:disabled {
+  color: rgb(130, 130, 202);
+  background-color: rgb(243, 239, 239);
+}
+
+.container-x {
+  text-align: center;
+  position: relative;
+}
+
+.text-x {
+  color: black;
+  font-weight: 800;
+  position: absolute;
+  top: 0;
+  right: 2%;
+  cursor: pointer;
+}
+
+.error-container {
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+}
+
+.center-justify {
+    text-align: center;
+}

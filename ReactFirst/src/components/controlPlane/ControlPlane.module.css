@@ -1,0 +1,144 @@
+.main-header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: rgb(245, 245, 248);
+    color: rgb(53, 46, 46);
+    justify-content: center;
+    z-index: 100;
+    border-bottom: 1px solid rgb(39, 39, 117);
+    box-shadow: 3px 3px 3px rgba(41, 32, 73, 0.6);
+}
+
+.main-header-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex: 1;
+}
+
+.company-img {
+    flex: 1;
+    height: 20px;
+    flex-shrink: 2;
+}
+
+.system-name {
+    flex: 3;
+}
+
+.profile-img-logout {
+    flex: 1;
+    height: 100%;
+    padding-left: 2%;
+    flex-shrink: 0;
+    justify-content: left;
+    text-align: left;
+}
+
+.company-logo {
+    width: 100px;
+    object-fit: contain;
+    border-style: none;
+    border-radius: 50px;
+    margin-left: 15%;
+}
+
+.system-id {
+    font-size: 300%;
+    font-weight: 900;
+    text-align: center;
+    font-style: oblique;
+    color: rgb(30, 30, 129);
+    margin-top: 20px;
+}
+
+.profile-img {
+    object-fit: contain;
+    width: 70px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.logout-img {
+    object-fit: contain;
+    width: 68px;
+    border-radius: 50px;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    cursor: pointer;
+    position: fixed;
+}
+
+.logout-img:hover {
+    opacity: 0.6;
+}
+
+.menubar {
+    position: fixed;
+    top: 5%;
+    left: 0%;
+    bottom: 0%;
+    width: 14%;
+}
+
+.menubar-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 248);
+    color: rgb(53, 46, 46);
+    box-shadow: 3px 3px 3px rgba(41, 32, 73, 0.6);
+    height: 150%;
+    width: 100%;
+}
+
+.menubar-img-container {
+    border-bottom: 1px solid rgb(39, 39, 117);
+    box-shadow: 1px 1px 1px rgba(41, 32, 73, 0.6);
+    margin-top: 13%;
+}
+
+.menubar-img {
+    object-fit: contain;
+    width: 30%;
+    height: 80;
+    margin-left: 35%;
+    margin-top: 25%;
+}
+
+.menu-itme-container {
+    color: rgb(53, 46, 46);
+    border-bottom: 1px blue solid;
+    box-shadow: 1px 1px 1px rgba(41, 32, 73, 0.6);
+}
+
+.menu-item {
+    font-size: 97%;
+    color: rgb(53, 46, 46);
+    cursor: pointer;
+    width: 100%;
+}
+
+.menu-item:active{
+    background-color: rgb(125, 118, 151);
+    color: white;
+    opacity: 0.3;
+}
+
+.menu-item:hover {
+    background-color: rgb(125, 118, 151);
+    color: white;
+}
+
+.draw-area {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    bottom: 0%;
+    width: 84%;
+}

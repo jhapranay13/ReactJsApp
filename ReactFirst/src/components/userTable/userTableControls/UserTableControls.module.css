@@ -1,0 +1,38 @@
+.user-table-controls {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    justify-content: space-between;
+}
+
+.records-per-page {
+    width: 45px;
+    height: 100%;
+    flex: 1;
+}
+
+.page-number {
+    height: 100%;
+    width: 50px;
+    background-color: white;
+    border-style: groove;
+    border-color: black;
+    display: inline-block;
+}
+
+.recods-per-page-container {
+    flex: 1;
+    justify-content: center;
+}
+
+.page-num-lbl-container {
+    display: flex;
+    text-align: center;
+    height: 120%;
+}
+
+.page-number-lbl{
+    margin-top: 1%;
+}

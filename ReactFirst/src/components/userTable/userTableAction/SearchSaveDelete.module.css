@@ -1,0 +1,52 @@
+.user_table-search-container {
+    text-align: center;
+}
+
+.user-table-operation {
+    display: inline-block;
+    margin-left: 30%;
+    margin-bottom: 0px;
+    position: relative;
+    margin-top: 0%;
+    padding: 0;
+}
+
+.search-continaer {
+    padding: 0;
+}
+
+.search-text {
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(77, 131, 231);
+    box-shadow: 2px 2px 2px rgba(41, 32, 73, 0.6);
+    margin-bottom: 1%;
+    padding: 3px;
+}
+
+.op-img {
+    object-fit: contain;
+    width: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.op-img:active {
+    opacity: 0.5;
+}
+
+.search-continaer {
+    padding: 0;
+}
+
+.search-text {
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(77, 131, 231);
+    box-shadow: 2px 2px 2px rgba(41, 32, 73, 0.6);
+    margin-bottom: 1%;
+    padding: 3px;
+}
