@@ -22,6 +22,10 @@ export const MenuBar = ({menuItems, queryParams}) => {
         if (component === 'CounterApp') {
             navigate(`./counterapp?role=${queryParams}`);
         }
+
+        if (component === 'QuizApp') {
+            navigate(`./quizapp?role=${queryParams}`);
+        }
     };
     return (
         <div className={classes["menubar"]}>

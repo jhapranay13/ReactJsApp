@@ -6,6 +6,7 @@ import { LoginContextProvider } from './components/store/LoginContext';
 import { Administration } from './components/administration/Adminsitration';
 import { VideoLibrary, videoLoader } from './components/videoLibrary/VideoLibrary';
 import { CounterApp } from './components/counterApp/CounterApp';
+import { QuizApp } from './components/quizApp/QuizApp';
 
 const router = createBrowserRouter([
   {
@@ -19,16 +20,20 @@ const router = createBrowserRouter([
     children: [
       {
         path: 'administration', 
-        element: <Administration></Administration>, 
+        element: <SecurePath><Administration></Administration></SecurePath>, 
       },
       {
         path: 'videolibrary', 
-        element: <VideoLibrary></VideoLibrary>, 
+        element:<SecurePath> <VideoLibrary></VideoLibrary></SecurePath>,
         loader: videoLoader,
       },
       {
         path: 'counterapp', 
-        element: <CounterApp></CounterApp>, 
+        element: <SecurePath><CounterApp></CounterApp></SecurePath>, 
+      },
+      {
+        path: 'quizapp', 
+        element: <SecurePath><QuizApp/></SecurePath>, 
       }
     ]
   }

@@ -113,23 +113,47 @@ let videoCardData = [{
 }];
 
 const roleMenuMap = new Map();
-roleMenuMap.set('admin', ['person-admin', 'video-library', 'counter-app', 'project-mgmt','manage-profile']);
-roleMenuMap.set('premium', ['video-library', 'counter-app', 'project-mgmt', 'manage-profile']);
-roleMenuMap.set('normal', ['counter-app', 'project-mgmt', 'manage-profile']);
+roleMenuMap.set('admin', ['person-admin', 'video-library', 'counter-app', 'quiz-app']);
+roleMenuMap.set('premium', ['video-library', 'counter-app', 'quiz-app']);
+roleMenuMap.set('normal', ['counter-app', 'quiz-app']);
 
 const menuTextMap = new Map();
 menuTextMap.set('person-admin', 'Administration');
 menuTextMap.set('video-library', 'Video Library');
 menuTextMap.set('counter-app', 'Counter App');
-menuTextMap.set('manage-profile', 'Profile Management');
-menuTextMap.set('project-mgmt', 'Project Management');
+menuTextMap.set('quiz-app', 'Quiz');
 
 const menuComponentMap = new Map();
 menuComponentMap.set('person-admin', 'Adminstration');
 menuComponentMap.set('video-library', 'VideoLibrary');
 menuComponentMap.set('counter-app', 'CounterApp');
-menuComponentMap.set('manage-profile', 'Adminstration');
-menuComponentMap.set('project-mgmt', 'Adminstration');
+menuComponentMap.set('quiz-app', 'QuizApp');
+
+export const quizData = [{
+    ques: "Demo Question 1 So some random text just like that?",
+    ans: [
+        "Answer 1.",
+        "Answer 2 so making something else.",
+        "Answer 3 so making something else making it a bit longer.",
+        "4th time."
+    ]
+}, {
+    ques: "Demo Question 2 So some random text just like that. So lets see the timer run?",
+    ans: [
+        "Answer 1.",
+        "Answer 2 so making something else.",
+        "Answer 3 so making something else making it a bit longer.",
+        "4th time."
+    ]
+}, {
+    ques: "Demo Question 3 So lets see the timer run?",
+    ans: [
+        "Answer 1.",
+        "Answer 2 so making something else.",
+        "Answer 3 so making something else making it a bit longer.",
+        "4th time."
+    ]
+}];
 
 
 export const checkForUserNameAndSave = (userState) => {

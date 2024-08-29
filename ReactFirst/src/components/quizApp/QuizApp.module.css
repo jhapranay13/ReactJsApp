@@ -1,0 +1,119 @@
+.quiz-container {
+    border-style: solid;
+    border-color: rgb(55, 13, 75);
+    width: 65%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 15%;
+    position: absolute;
+    text-align: center;
+    border-radius: 45px;
+}
+
+.start-quiz-text {
+    color: rgb(80, 80, 177);
+    font-weight: 800;
+    font-size: 250%;
+    text-align: center;
+    margin-top: 10%;
+    padding: 0;
+}
+
+.start-quiz-subtext {
+    color: rgb(80, 80, 177);
+    font-weight: 900;
+    font-size: 100%;
+    text-align: center;
+    margin-top: -5%;
+}
+
+.start-quiz-btn {
+    font-size: 30px;
+    font-weight: 800;
+    background-color: cornflowerblue;
+    border-color: rgb(63, 123, 233);
+    box-shadow: 2px 2px 2px rgba(41, 32, 73, 0.6);
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.start-quiz-btn:active {
+    color: cornflowerblue;
+    background-color: white;
+}
+
+.start-quiz-btn:hover {
+    opacity: 0.7;
+}
+
+.quiz-timer-container {
+    padding: 0;
+    border-style: solid;
+    border-color: black;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    height: 15px;
+    width: 95%;
+    position: relative;
+    border-color: rgb(27, 48, 5);
+}
+
+.quiz-timer-line {
+    background-color: rgb(43, 187, 43);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.quiz-ques-container {
+    font-size: 24px;
+    color: rgb(13, 13, 146);
+    margin-bottom: 3%;
+}
+
+.quiz-answer {
+    text-align: center;
+    padding-left: 6%;
+}
+
+.quiz-answer-btn { 
+    text-align: center;
+    color: rgb(37, 37, 122);
+    border-style: solid;
+    background-color: aliceblue;
+    width: 90%;
+    border-color: rgb(153, 162, 172);
+    padding: 1%;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: opacity 0.1s;
+    margin-bottom: 2%;
+}
+
+.quiz-answer-btn:hover {
+    opacity: 0.7;
+}
+
+.quiz-answer-btn:active {
+    background-color: rgb(37, 37, 122);
+    color: rgb(207, 212, 218);
+}
+
+.end-quiz-text {
+    color: rgb(80, 80, 177);
+    font-weight: 800;
+    font-size: 250%;
+    text-align: center;
+    margin-top: 10%;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
