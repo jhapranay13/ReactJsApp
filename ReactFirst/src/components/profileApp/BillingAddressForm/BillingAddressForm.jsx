@@ -61,31 +61,31 @@ export const BillingAddressForm = ({setBillFormDone}) => {
         <form className={classes["billing-mgmt-form"]} encType="multipart/form-data" action="" onSubmit={onSubmitHandler}>    
             <div className={classes["grid-layout-form"]} >
                 <div>
-                    <label htmFor="billingChk">Use Home Address as Billing Address</label>
+                    <label htmlFor="billingChk">Use Home Address as Billing Address</label>
                     <input type="checkbox" name="billingChk" id="billingChk" onChange={onChangeHandler}/>
                 </div>
                 <div className={classes["span-column-two"]}>
-                    <label htmFor="billingAddressLine1">Address Line 1:</label>
+                    <label htmlFor="billingAddressLine1">Address Line 1:</label>
                     <input type="text" id="billingAddressLine1" name="billingAddressLine1" value = {initialState.billingAddressLine1} onChange={onChangeHandler}></input>
                 </div>    
                 <div className={classes["span-column-two"]}>
-                    <label htmFor="billingAddressLine2">Address Line 2:</label>
+                    <label htmlFor="billingAddressLine2">Address Line 2:</label>
                     <input type="text" id="billingAddressLine2" name="billingAddressLine2" value={initialState.billingAddressLine2} onChange={onChangeHandler}></input>
                 </div> 
                 <div>
-                    <label htmFor="billingCity">City:</label>
+                    <label htmlFor="billingCity">City:</label>
                     <input type="text" id="billingCity" name="billingCity" value = {initialState.billingCity}  onChange={onChangeHandler}></input>
                 </div>
                 <div>
-                    <label htmFor="billingZipCode">Zip Code:</label>
+                    <label htmlFor="billingZipCode">Zip Code:</label>
                     <input type="text" id="billingZipCode" name="billingZipCode" value = {initialState.billingZipCode}  onChange={onChangeHandler}></input>
                 </div>
                 <div>
-                    <label htmFor="billingState">State:</label>
+                    <label htmlFor="billingState">State:</label>
                     <input type="text" id="billingState" name="billingState" value = {initialState.billingState}  onChange={onChangeHandler}></input>
                 </div>
                 <div>
-                    <label htmFor="billingCountry">Country:</label>
+                    <label htmlFor="billingCountry">Country:</label>
                     <input type="text" id="billingCountry" name="billingCountry" value = {initialState.billingCountry} onChange={onChangeHandler}></input>
                 </div>
             </div> 
