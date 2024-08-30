@@ -113,20 +113,20 @@ let videoCardData = [{
 }];
 
 const roleMenuMap = new Map();
-roleMenuMap.set('admin', ['person-admin', 'video-library', 'counter-app', 'quiz-app']);
-roleMenuMap.set('premium', ['video-library', 'counter-app', 'quiz-app']);
-roleMenuMap.set('normal', ['counter-app', 'quiz-app']);
+roleMenuMap.set('admin', ['person-admin', 'video-library', 'profile-app', 'quiz-app']);
+roleMenuMap.set('premium', ['video-library', 'profile-app', 'quiz-app']);
+roleMenuMap.set('normal', ['profile-app', 'quiz-app']);
 
 const menuTextMap = new Map();
 menuTextMap.set('person-admin', 'Administration');
 menuTextMap.set('video-library', 'Video Library');
-menuTextMap.set('counter-app', 'Counter App');
+menuTextMap.set('profile-app', 'Profile App');
 menuTextMap.set('quiz-app', 'Quiz');
 
 const menuComponentMap = new Map();
 menuComponentMap.set('person-admin', 'Adminstration');
 menuComponentMap.set('video-library', 'VideoLibrary');
-menuComponentMap.set('counter-app', 'CounterApp');
+menuComponentMap.set('profile-app', 'CounterApp');
 menuComponentMap.set('quiz-app', 'QuizApp');
 
 export const quizData = [{

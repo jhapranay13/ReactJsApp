@@ -1,0 +1,20 @@
+
+.sliceOutputContainer {
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    margin-left: 10%;
+    border-style: solid;
+    border-color: rgb(114, 114, 228);
+    box-shadow: 3px 3px 3px rgba(50, 50, 97, 0.6);
+    vertical-align: top;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.outputHeader {
+    font-size: 20px;
+    font-weight: 800;
+    color: blue;
+    text-decoration: underline;
+}

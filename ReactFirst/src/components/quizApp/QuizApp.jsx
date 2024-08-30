@@ -14,7 +14,6 @@ export const QuizApp = () => {
     const ref = useRef();
     
     const startQuizHandler = (event) => {
-        console.log("click", event);
         const cpyQizData = [...quizData];
         cpyQizData.sort((a, b) => {
             return (Math.random() - 0.5);
@@ -49,10 +48,6 @@ export const QuizApp = () => {
 
         let elapsedTime = 0;
         let timer = quizQuesTimer;
-
-        if (timer) {
-            clearInterval(timer);
-        }
 
         timer = setInterval(
             () => {

@@ -5,7 +5,7 @@ import { SecurePath } from './components/securePath/SecurePath';
 import { LoginContextProvider } from './components/store/LoginContext';
 import { Administration } from './components/administration/Adminsitration';
 import { VideoLibrary, videoLoader } from './components/videoLibrary/VideoLibrary';
-import { CounterApp } from './components/counterApp/CounterApp';
+import { ProfileApp } from './components/profileApp/ProfileApp';
 import { QuizApp } from './components/quizApp/QuizApp';
 
 const router = createBrowserRouter([
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'counterapp', 
-        element: <SecurePath><CounterApp></CounterApp></SecurePath>, 
+        element: <SecurePath><ProfileApp></ProfileApp></SecurePath>, 
       },
       {
         path: 'quizapp', 
