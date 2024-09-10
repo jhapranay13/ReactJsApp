@@ -3,13 +3,13 @@ import {createPortal} from 'react-dom';
 
 export const DisableCloak = ({display}) => {
     let cloakClasses = classes.hidden;
-
+    
     if (display) {
         cloakClasses = classes.showCloak;
     }
     return createPortal(
         <div className={cloakClasses}>
-
+            <div className={classes.loader}></div>
         </div>,
         document.querySelector('#modal')
     );

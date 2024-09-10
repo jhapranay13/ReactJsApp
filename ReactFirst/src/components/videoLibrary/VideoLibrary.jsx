@@ -81,7 +81,7 @@ export const VideoLibrary = () => {
         ref.current.close();
 
     };
-    const message = "Saving is tTODO but this is working and that was the intention"
+    const message = "Saving is Still TODO but this is working and that was the intention"
 
     const onVideoCardClickRemoveHandler = (event) => {
         const videoName = event.target.dataset.videoName;
@@ -98,10 +98,10 @@ export const VideoLibrary = () => {
     return (
        <>
             <ConfirmBox ref={ref} message={message} fnToExecuteOnOk={fnToExecuteOnOk} fnToExecuteOnCancel={fnToExecuteOnCancel}></ConfirmBox>
-            <AccordianCounter key ={Math.random()} header={"Video Added"} counter={selectVideo.length }>
+            <AccordianCounter header={"Video Added"} counter={selectVideo.length }>
                 {selectVideo.length > 0 ? selectVideo : <p>No Video Selected</p>}
             </AccordianCounter>
-            <Accordian header={"Available Video"} key ={Math.random()}>
+            <Accordian header={"Available Video"}>
                 {availVideo.length > 0 ? availVideo : <p>No Video Available for selection</p>}
             </Accordian>
        </>

@@ -1,12 +1,13 @@
 import classes from './MenuBar.module.css';
 import menubarLogo from "../../assets/menubar-icon.png";
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import { DisableCloak } from '../disableCloak/DisableCloak';
 
 
 export const MenuBar = ({menuItems, queryParams}) => {
     
     const navigate = useNavigate();
-
 
     const onMenuClickHandler = (event) => {
         const component = event.target.dataset.componentAssoc;

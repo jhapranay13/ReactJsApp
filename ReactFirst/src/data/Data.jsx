@@ -302,7 +302,7 @@ export const fetchVideoData = (userName) => {
         setTimeout(() => {
             resolve({videoSelected, videoAvailable});
         }, 
-        1500
+        500
         );
     }, (reject) => {
         throw new Error("Username or password does not exist!!");
